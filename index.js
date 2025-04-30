@@ -1,37 +1,23 @@
-/*import {dotenv} from 'dotenv';
-import {Client, GatewayIntentBits} from 'discord.js';
+import dotenv from 'dotenv'
 dotenv.config()
-*/
 
-/*import { 
-    Client,
-    GatewayIntentBits,
+import { 
     ButtonBuilder,
     ButtonStyle,
     ModalBuilder,
     TextInputBuilder,
     TextInputStyle
 } from 'discord.js';
-*/
 
-const express = require('express');
-const app = express();
+import { Client, GatewayIntentBits } from 'discord.js';
 
-app.listen(3000, () => {
-    console.log("Project is running!");
-})
-
-app.get('/', (req, res) => {
-    res.send("Hello World!");
-})
-
-const Discord = require('discord.js')
-const client = new Discord.Client({
+const client = new Client({
     intents: [
-        Guilds,
-        GuildMessages,
-        GuildMembers,
-        DirectMessages,
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.GuildMembers,
+        GatewayIntentBits.DirectMessages,
+        GatewayIntentBits.MessageContent,
     ],
 });
 
