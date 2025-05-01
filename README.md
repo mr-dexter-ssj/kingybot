@@ -1,7 +1,7 @@
 # Kingybot
 
 + A multipurpose bot designed for use in the Kingybu's Texture Cave server!
-+ This is the public repository. If you want to create a similar bot, clone the repository and follow every setup step in [the quick start guide!](https://discord.com/developers/docs/quick-start/getting-started)
++ This is the public repository. If you want to create a similar bot, clone the repository and follow every setup step in [the quick start guide!](https://discord.com/developers/docs/quick-start/getting-started) (Make sure to create your own .env file and add your bot's Discord Token as specified in the guide!)
 ----
 ## Running app locally
 
